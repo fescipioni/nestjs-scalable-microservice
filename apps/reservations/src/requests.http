@@ -1,0 +1,27 @@
+### Create a reservation
+POST http://localhost:3000/reservations
+Content-Type: application/json
+
+{
+  "startDate": "12/20/2025",
+  "endDate": "12/25/2025",
+  "placeId": "123123",
+  "invoiceId": "493"
+}
+
+### Get all reservations
+GET http://localhost:3000/reservations
+
+### Get reservation by id
+GET http://localhost:3000/reservations/6893b7c88a45448e7eb2c179
+
+### Update a reservation
+PATCH  http://localhost:3000/reservations/6893b7c88a45448e7eb2c179
+Content-Type: application/json
+
+{
+  "startDate": "12/19/2025"
+}
+
+### Delete a reservation
+DELETE http://localhost:3000/reservations/6893b7c88a45448e7eb2c179
