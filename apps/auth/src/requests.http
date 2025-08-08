@@ -1,0 +1,8 @@
+### Login a user
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "strong-test@example.com",
+  "password": "Password!123"
+}
