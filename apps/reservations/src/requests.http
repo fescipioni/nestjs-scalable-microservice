@@ -1,6 +1,7 @@
 ### Create a reservation
 POST http://localhost:3000/reservations
 Content-Type: application/json
+Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODlhNTFhZDFmNDE4MTlhMmZjNWUxOTEiLCJpYXQiOjE3NTQ5NDM5MjcsImV4cCI6MTc1NDk0NzUyN30.8HuGXiUuAF4fpEr8Cw6Y54BepiQtafhLfPfFbmQIULI; Path=/; Expires=Fri, 15 Aug 2025 00:25:00 GMT; HttpOnly
 
 {
   "startDate": "12/20/2025",
@@ -11,13 +12,16 @@ Content-Type: application/json
 
 ### Get all reservations
 GET http://localhost:3000/reservations
+Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODlhNTFhZDFmNDE4MTlhMmZjNWUxOTEiLCJpYXQiOjE3NTQ5NDM5MjcsImV4cCI6MTc1NDk0NzUyN30.8HuGXiUuAF4fpEr8Cw6Y54BepiQtafhLfPfFbmQIULI; Path=/; Expires=Fri, 15 Aug 2025 00:25:00 GMT; HttpOnly
 
 ### Get reservation by id
 GET http://localhost:3000/reservations/6893b7c88a45448e7eb2c179
+Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODlhNTFhZDFmNDE4MTlhMmZjNWUxOTEiLCJpYXQiOjE3NTQ5NDM5MjcsImV4cCI6MTc1NDk0NzUyN30.8HuGXiUuAF4fpEr8Cw6Y54BepiQtafhLfPfFbmQIULI; Path=/; Expires=Fri, 15 Aug 2025 00:25:00 GMT; HttpOnly
 
 ### Update a reservation
 PATCH  http://localhost:3000/reservations/6893b7c88a45448e7eb2c179
 Content-Type: application/json
+Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODlhNTFhZDFmNDE4MTlhMmZjNWUxOTEiLCJpYXQiOjE3NTQ5NDM5MjcsImV4cCI6MTc1NDk0NzUyN30.8HuGXiUuAF4fpEr8Cw6Y54BepiQtafhLfPfFbmQIULI; Path=/; Expires=Fri, 15 Aug 2025 00:25:00 GMT; HttpOnly
 
 {
   "startDate": "12/19/2025"
@@ -25,3 +29,4 @@ Content-Type: application/json
 
 ### Delete a reservation
 DELETE http://localhost:3000/reservations/6893b7c88a45448e7eb2c179
+Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODlhNTFhZDFmNDE4MTlhMmZjNWUxOTEiLCJpYXQiOjE3NTQ5NDM5MjcsImV4cCI6MTc1NDk0NzUyN30.8HuGXiUuAF4fpEr8Cw6Y54BepiQtafhLfPfFbmQIULI; Path=/; Expires=Fri, 15 Aug 2025 00:25:00 GMT; HttpOnly

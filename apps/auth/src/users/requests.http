@@ -9,4 +9,4 @@ Content-Type: application/json
 
 ### Get current logged user
 GET http://localhost:3001/users
-Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODk2Njc4NDQyNTU3ZGM1OTRjODNiNzciLCJpYXQiOjE3NTQ2ODg3NTAsImV4cCI6MTc1NDY5MjM1MH0.j48cU6bMXFurvxfZ73PFu_72i3DsZ8uIPqT9SSF3zoA; Path=/; Expires=Tue, 12 Aug 2025 09:52:00 GMT; HttpOnly
+Set-Cookie: Authentication=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODlhNDgwMThlYzRmOTkxNTIwMDJjNGEiLCJpYXQiOjE3NTQ5NDE0NTEsImV4cCI6MTc1NDk0NTA1MX0.NGFrHPdIw7OJXIlqLhgZi6wYxuyOE9_tfbRzQropTlw; Path=/; Expires=Wed, 13 Aug 2025 03:17:20 GMT; HttpOnly
